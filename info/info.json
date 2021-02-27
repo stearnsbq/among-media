@@ -1,0 +1,5 @@
+{
+    "description": "A really simple app that tries to detect objects that look like crewmates from the video game Among Us in uploaded images.",
+    "accomplishments": ["Trained a model on a custom dataset", "Implemented a frontend with an exported tensorflow model for use with tensorflowjs"],
+    "technologies": ["Angular", "Tensorflow", "Python", "Tensorflowjs", "Object Detection"]
+  }

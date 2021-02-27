@@ -1,0 +1,26 @@
+<annotation>
+	<folder>images</folder>
+	<filename>among-us-25.jpg</filename>
+	<path>C:\Users\quinn\Desktop\dev\among-us-detector\backend\model\images\among-us-25.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>512</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Crewmate</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>208</xmin>
+			<ymin>205</ymin>
+			<xmax>359</xmax>
+			<ymax>332</ymax>
+		</bndbox>
+	</object>
+</annotation>
