@@ -1,0 +1,14 @@
+<div class="file-upload-section">
+  <div class="file-upload-header">
+    <button class="upload-button" (click)="input.click()">Choose an Image</button>
+    <input type="file" hidden (change)="onUpload($event.target.files[0])" #input accept=".jpg,.png">
+  </div>
+  <div class="file-upload-info">
+    <div class="image-info" *ngIf="image">
+        <ul>
+          <li>Image Name: {{image.name}}</li>
+          <li>Image Size: {{image.size | filesize}}</li>
+        </ul>
+    </div>
+  </div>
+</div>

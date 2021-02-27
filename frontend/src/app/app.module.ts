@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InferenceComponent } from './inference/inference.component';
 import { HeaderComponent } from './header/header.component';
+import { ImageChooserComponent } from './image-chooser/image-chooser.component';
+import { FilesizePipe } from './filesize.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     InferenceComponent,
-    HeaderComponent
+    HeaderComponent,
+    ImageChooserComponent,
+    FilesizePipe
   ],
   imports: [
     BrowserModule,

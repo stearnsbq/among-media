@@ -2,10 +2,19 @@
   display: flex;
   padding: 15px;
   flex-direction: column;
+  justify-content: space-between;
   margin: 0 auto;
   margin-top: 25px;
   border-radius: 5px;
-  width: 850px;
+  width: 50%;
   background-color: white;
   box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .amongst-media-card{
+    width: 75%;
+  }
 }

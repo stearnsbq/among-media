@@ -1,4 +1,51 @@
 .inference-content{
   display: flex;
-  margin: 50%;
+  justify-content: center;
+  margin: 15px;
+  padding: 5px;
+  height: 512px;
+  border: 1px solid rgba($color: #000000, $alpha: 0.4);
+  background-color: #fafafa;
+  position: relative;
+
+  canvas {
+    max-width: 512px;
+    max-height: 512px;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
+
+}
+
+.processing{
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  animation: spin 2s linear infinite;
+}
+
+.processing-area{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  top: 0;
+  background-color: rgba($color: black, $alpha: 0.3);
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
